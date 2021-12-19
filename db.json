@@ -1,42 +1,4 @@
 {
-  "logs": [
-    {
-      "id": 3,
-      "message": "Now it is working, I hope",
-      "attention": true,
-      "tech": "Doe",
-      "date": "2021-12-19T20:47:33.908Z"
-    },
-    {
-      "id": 4,
-      "message": "It worked, this one is the log number 4",
-      "attention": true,
-      "tech": "Clark Gronner",
-      "date": "2021-12-19T20:46:18.672Z"
-    },
-    {
-      "message": "Log 5 i hope",
-      "attention": false,
-      "tech": "John",
-      "date": "2021-12-19T19:21:27.613Z",
-      "id": 5
-    }
-  ],
-  "techs": [
-    {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe"
-    },
-    {
-      "id": 2,
-      "firstName": "Sam",
-      "lastName": "Smith"
-    },
-    {
-      "id": 3,
-      "firstName": "Clark",
-      "lastName": "Gronner"
-    }
-  ]
+  "logs": [],
+  "techs": []
 }
