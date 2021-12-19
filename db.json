@@ -1,11 +1,25 @@
 {
   "logs": [
     {
-      "message": "A new log to you",
+      "message": "A new log to test it",
+      "attention": false,
+      "tech": "John",
+      "date": "2021-12-19T18:42:57.595Z",
+      "id": 1
+    },
+    {
+      "message": "third is the charm to test it",
+      "attention": false,
+      "tech": "Doe",
+      "date": "2021-12-19T18:43:28.635Z",
+      "id": 3
+    },
+    {
+      "message": "testing if this will be log 4 or not",
       "attention": true,
       "tech": "John Doe",
-      "date": "2021-12-19T18:20:37.667Z",
-      "id": 1
+      "date": "2021-12-19T18:43:52.381Z",
+      "id": 4
     }
   ],
   "techs": [
