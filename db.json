@@ -20,13 +20,6 @@
       "tech": "John",
       "date": "2021-12-19T19:21:27.613Z",
       "id": 5
-    },
-    {
-      "message": "Teste com o teste loko",
-      "attention": true,
-      "tech": "Teste loko",
-      "date": "2021-12-19T21:01:42.141Z",
-      "id": 6
     }
   ],
   "techs": [
@@ -44,11 +37,6 @@
       "id": 3,
       "firstName": "Clark",
       "lastName": "Gronner"
-    },
-    {
-      "firstName": "Teste",
-      "lastName": "loko",
-      "id": 4
     }
   ]
 }

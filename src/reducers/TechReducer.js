@@ -27,10 +27,11 @@ export default (state = initialState, action) => {
         techs: [...state.techs, action.payload],
         loading: false
       }
-    case SET_LOADING:
+    case DELETE_TECH:
       return {
         ...state,
-        loading: true
+        techs: state.techs.filter(tech => tech.id !== action.payload),
+        loading: false
       }
     case TECHS_ERROR:
       console.log(action.payload);
@@ -38,6 +39,11 @@ export default (state = initialState, action) => {
         ...state,
         error: action.payload,
         loading: false
+      }
+    case SET_LOADING:
+      return {
+        ...state,
+        loading: true
       }
     default:
       return state;
