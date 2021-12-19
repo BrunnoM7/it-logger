@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import { clearCurrent, updateLog } from '../../actions/logActions';
 
+import TechSelectOptions from '../techs/TechSelectOptions';
+
 const EditLogModal = ({ current, updateLog, clearCurrent }) => {
   const [message, setMessage] = useState('');
   const [attention, setAttention] = useState(false)
@@ -16,7 +18,6 @@ const EditLogModal = ({ current, updateLog, clearCurrent }) => {
       setTech(current.tech);
     }
 
-    return () => clearCurrent();
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [current]);
 
@@ -38,7 +39,8 @@ const EditLogModal = ({ current, updateLog, clearCurrent }) => {
       // Clear Fields
       setMessage('');
       setTech('');
-      setAttention(false) 
+      setAttention(false)
+      clearCurrent();
     }
   }
 
@@ -69,9 +71,7 @@ const EditLogModal = ({ current, updateLog, clearCurrent }) => {
               onChange={e => setTech(e.target.value)}
             >
               <option value="" disabled>Select Technician</option>
-              <option value="John Doe">John Doe</option>
-              <option value="John">John</option>
-              <option value="Doe">Doe</option>
+              <TechSelectOptions />
             </select>
           </div>
         </div>

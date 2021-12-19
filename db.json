@@ -3,16 +3,16 @@
     {
       "id": 3,
       "message": "Now it is working, I hope",
-      "attention": false,
+      "attention": true,
       "tech": "Doe",
-      "date": "2021-12-19T19:25:04.427Z"
+      "date": "2021-12-19T20:47:33.908Z"
     },
     {
       "id": 4,
       "message": "It worked, this one is the log number 4",
-      "attention": false,
-      "tech": "John",
-      "date": "2021-12-19T19:19:23.144Z"
+      "attention": true,
+      "tech": "Clark Gronner",
+      "date": "2021-12-19T20:46:18.672Z"
     },
     {
       "message": "Log 5 i hope",
